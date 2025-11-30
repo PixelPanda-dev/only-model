@@ -37,7 +37,7 @@ export function HomeRoot({ initialSection }: HomePageProps) {
         <WhyOnlyModelsSection />
         <TransparencySection />
         <ServicesDetail />
-        <DoneForYouSection />
+        {/* <DoneForYouSection /> */}
         <ComprehensiveGrowth />
         <FeaturesSection />
         <WorkflowSection />

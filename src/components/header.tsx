@@ -108,7 +108,7 @@ export function Header() {
         <div className="hidden md:flex shrink-0">
           <div className="glass-pill glass-pill--actions">
             <ThemeToggle />
-            {/* <ReferButton /> */}
+            <ReferButton />
           </div>
         </div>
 
@@ -197,7 +197,7 @@ export function Header() {
                         <ThemeToggle />
                       </div>
                       <div className="w-full" onClick={() => setIsOpen(false)}>
-                        {/* <ReferButton className="!w-full flex justify-center" /> */}
+                        <ReferButton className="!w-full flex justify-center" />
                       </div>
                     </div>
                   </motion.div>

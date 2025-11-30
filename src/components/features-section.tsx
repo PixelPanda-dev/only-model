@@ -187,7 +187,7 @@ function RevenueGraph() {
 export function FeaturesSection() {
   return (
     <section
-      className="features-section mx-auto flex min-h-screen w-full max-w-6xl flex-col items-center justify-center px-5 py-24"
+      className="features-section mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-5 py-0"
       id="features"
       data-section="features"
       aria-label="Platform capabilities"
@@ -274,26 +274,26 @@ export function FeaturesSection() {
       </motion.div>
 
       {/* Dashboard Preview Image */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, rotateX: 45, y: 100 }}
         whileInView={{ opacity: 1, rotateX: 0, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 1, type: "spring", bounce: 0.2 }}
-        className="mt-16 w-full overflow-hidden rounded-3xl border border-border/40 bg-surface/50 shadow-2xl"
+        className=""
         style={{ perspective: 1000 }}
-      >
-        <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-surface/30">
+      > */}
+        {/* <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-surface/30"> */}
           {/* Overlay gradient */}
-          <div className="absolute inset-0 z-10 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+          {/* <div className="absolute inset-0 z-10 bg-gradient-to-t from-background/80 via-transparent to-transparent" /> */}
 
-          <img
+          {/* <img
             src="/assets/dashboard-showcase/dash-1.jpeg"
             alt="OnlyModels Dashboard Interface"
             className="h-full w-full object-contain transition-transform duration-1000 hover:scale-105"
-          />
+          /> */}
 
           {/* Floating Badge */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -303,9 +303,9 @@ export function FeaturesSection() {
             <p className="text-sm font-medium text-foreground">
               <span className="mr-2 text-accent">●</span> Live Revenue Cockpit
             </p>
-          </motion.div>
-        </div>
-      </motion.div>
+          </motion.div> */}
+        {/* </div> */}
+      {/* </motion.div> */}
     </section>
   );
 }
