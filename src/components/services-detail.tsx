@@ -289,7 +289,7 @@ export function ServicesDetail() {
                                         </motion.h3>
                                     </motion.div>
                                 </div>
-                                <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
+                                <div className="space-y-2 text-lg leading-relaxed text-muted-foreground">
                                     {service.content.map((paragraph, i) => (
                                         <p key={i}>{paragraph}</p>
                                     ))}
