@@ -248,7 +248,7 @@ export function WorkflowSection() {
                   <span>Revenue Trend</span>
                   <span className="text-accent">Updating</span>
                 </div>
-                <p className="mt-1.5 text-[0.6rem] text-muted md:mt-2 md:text-xs lg:text-sm">Dec 2024 - Jan 2025</p>
+                <p className="mt-1.5 text-[0.6rem] text-muted md:mt-2 md:text-xs lg:text-sm">Nov 2024 - Nov 2025</p>
                 <svg viewBox="0 0 240 120" className="mt-2.5 w-full max-w-[180px] sm:max-w-[260px]">
                   <defs>
                     <linearGradient id="revenueGradient" x1="0%" y1="0%" x2="0%" y2="100%">

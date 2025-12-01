@@ -111,7 +111,7 @@ export function TopCreatorsSection() {
                         <div className="absolute -inset-1 rounded-[34px] bg-gradient-to-tr from-accent/30 via-transparent to-accent-secondary/30 opacity-40 blur-2xl" />
                         <div className="relative space-y-6">
                             <div className="top-creators-card-graph rounded-[28px] border border-white/10 bg-gradient-to-b from-background/85 to-surface/70 p-5 shadow-[0_30px_80px_rgba(0,0,0,0.35)]">
-                                <div className="flex items-center justify-between gap-4">
+                                {/* <div className="flex items-center justify-between gap-4">
                                     <div>
                                         <p className="text-[11px] uppercase tracking-[0.4em] text-muted">Studio momentum</p>
                                         <p className="mt-1 text-3xl font-semibold text-foreground">$1.2M run-rate</p>
@@ -120,7 +120,7 @@ export function TopCreatorsSection() {
                                         <span className="block text-foreground text-base font-semibold leading-tight">+47%</span>
                                         <span>QoQ lift</span>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="relative mt-6">
                                     {/* <svg viewBox={`0 0 ${chartWidth} ${chartHeight}`} className="h-40 w-full">
                                         <defs>
