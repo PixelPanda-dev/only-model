@@ -200,13 +200,14 @@ export function TestimonialsSection() {
                     {isVideoInView && (
                       <iframe
                         key={videoTestimonials[activeIndex].embedUrl}
-                        src={videoTestimonials[activeIndex].embedUrl}
+                        src={`${videoTestimonials[activeIndex].embedUrl}?autoplay=1&mute=1`}
                         allow="autoplay; fullscreen"
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer"
                         className="absolute left-0 top-0 h-full w-full rounded-[34px] border-0"
                         title={`${videoTestimonials[activeIndex].creator} testimonial`}
+                        
                       />
                     )}
                   </div>
