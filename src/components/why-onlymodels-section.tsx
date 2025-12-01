@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { Target, Rocket, Gem, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
 
+
 const trustPoints = [
     {
         icon: Target,
