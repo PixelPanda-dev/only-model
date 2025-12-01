@@ -4,13 +4,12 @@ import { useRef, useState } from "react";
 import { Target, Rocket, Gem, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
 
-
 const trustPoints = [
     {
         icon: Target,
         title: "Quality, not noise",
         description:
-            "We work with the USA and European markets because that’s where the real paying subscribers are the ones who stay longer, spend more, and actually move your earnings. We don’t waste your time with low-quality regions that ruin your stats and bring nothing but dead traffic.",
+            "We go after markets that actually pay. USA, Europe, the regions where loyal subscribers spend more, stay longer, and push your earnings higher. We don’t waste your brand on low-intent traffic that looks good on paper but brings zero revenue. With us, every click has a purpose.",
         image: "/assets/images/img1.jpeg",
         animation: "group-hover:scale-110",
     },
@@ -18,7 +17,7 @@ const trustPoints = [
         icon: Rocket,
         title: "Modern strategies",
         description:
-            "Most agencies are still using old strategies that stopped working years ago. They survive only because they throw money at promotions, and without that, their creators get almost no traffic.",
+            "Other agencies are stuck using tactics that stopped working years ago. They survive on spam, promo blasts, and desperation. We don’t. OnlyModels runs on modern traffic engines, creator-centered content systems, and smart funnels built for how platforms actually behave today. That’s why our creators outperform everyone else.",
         image: "/assets/images/img2.jpeg",
         animation: "group-hover:-translate-y-1 group-hover:translate-x-1",
     },
@@ -26,7 +25,7 @@ const trustPoints = [
         icon: Gem,
         title: "Real growth",
         description:
-            "OnlyModels is different. We build systems designed for how the platform truly works today: modern methods, optimized workflows, and clean automation that frees up your time instead of draining it.",
+            "OnlyModels does more than “manage.” We build systems designed to eliminate chaos. Clean workflows. Smarter content cycles. Automation that enhances your output instead of draining you. Everything we set up is engineered to increase conversions, retention, and monthly earnings in a predictable, scalable way.",
         image: "/assets/images/img3.jpeg",
         animation: "group-hover:rotate-12",
     },
@@ -34,11 +33,12 @@ const trustPoints = [
         icon: TrendingUp,
         title: "Long-term results",
         description:
-            "Our approach brings real growth, stronger engagement, and a creator brand that actually scales. When you choose OnlyModels, you’re choosing an agency that evolves, adapts, and focuses on long-term results, not outdated tactics.",
+            "Our creators don’t get lucky spikes. They get consistent month-over-month growth, stronger engagement, and a brand that gains value over time. When you choose OnlyModels, you’re choosing an agency that evolves, adapts, and keeps you ahead, while everyone else is still trying to catch up.",
         image: "/assets/images/img4.jpeg",
         animation: "group-hover:-translate-y-2",
     },
 ];
+
 
 function TiltCard({
     children,
@@ -143,7 +143,7 @@ export function WhyOnlyModelsSection() {
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className="why-subtitle mx-auto max-w-3xl text-xl font-semibold text-foreground/85"
                     >
-                        OnlyModels focuses on quality, not noise.
+                        OnlyModels isn’t just another agency. We’re the team creators choose when they want real money, real growth, and real results. We focus on high-value markets, modern systems, and long-term performance that compounds month after month. No shortcuts. No outdated tactics. Just elite execution.
                     </motion.p>
                 </div>
 
