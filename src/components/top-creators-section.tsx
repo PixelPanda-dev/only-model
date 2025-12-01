@@ -202,7 +202,7 @@ export function TopCreatorsSection() {
 
                             <div className="flex items-center justify-center">
                                 <div className="top-creators-card-label rounded-full border border-white/10 bg-accent/70 px-6 py-2 text-sm font-semibold text-background shadow-lg shadow-accent/30">
-                                    From Nov 2025 to Nov 2025
+                                    From Nov 2024 to Nov 2025
                                 </div>
                             </div>
 
