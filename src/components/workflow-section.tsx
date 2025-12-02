@@ -198,8 +198,8 @@ export function WorkflowSection() {
                           {platform.icon}
                         </div>
                         <div>
-                          {/* <p className="text-[10px] font-semibold text-foreground md:text-[10px] lg:text-xs">{platform.name}</p>
-                          <p className="text-[0.5rem] uppercase tracking-[0.3em] text-muted md:text-[0.5rem] md:tracking-[0.3em] lg:text-[0.6rem] lg:tracking-[0.45em]">
+                          <p className="text-[10px] font-semibold text-foreground md:text-[10px] lg:text-xs">{platform.name}</p>
+                          {/* <p className="text-[0.5rem] uppercase tracking-[0.3em] text-muted md:text-[0.5rem] md:tracking-[0.3em] lg:text-[0.6rem] lg:tracking-[0.45em]">
                             {platform.signal}
                           </p> */}
                         </div>
