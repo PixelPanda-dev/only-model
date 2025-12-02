@@ -113,7 +113,7 @@ export function RealStrugglesSection() {
       ref={sectionRef}
       onMouseMove={handleMouseMove}
     >
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background" />
+      <div className="pointer-events-none absolute inset-0 via-background/80 to-background" />
 
       <motion.div
         className="pointer-events-none absolute inset-0 opacity-70"

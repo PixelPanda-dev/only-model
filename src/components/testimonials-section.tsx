@@ -113,7 +113,7 @@ export function TestimonialsSection() {
       data-section="testimonials"
       ref={containerRef}
     >
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-accent/5 via-background to-background" />
+      <div className="pointer-events-none absolute inset-0  via-background to-background" />
       <div className="container relative mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mx-auto mb-12 flex max-w-3xl flex-col items-center gap-4 text-center">
           <motion.span

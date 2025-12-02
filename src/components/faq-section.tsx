@@ -68,7 +68,7 @@ const faqs = [
 ];
 
 const highlightStats = [
-  { label: "Average onboarding", value: "14 days" },
+  { label: "Average onboarding", value: "7 days" },
   { label: "Client retention", value: "98%" },
   { label: "Creator NPS", value: "4.9/5" },
 ];
@@ -96,7 +96,7 @@ export function FAQSection() {
       data-section="faq"
       ref={sectionRef}
     >
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-accent/5 via-background to-background opacity-90" />
+      <div className="pointer-events-none absolute inset-0  via-background to-background opacity-90" />
       <div className="relative mx-auto flex max-w-6xl flex-col gap-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -9,36 +9,36 @@ const steps = [
   {
     id: 1,
     icon: FileText,
-    title: "Micro application",
-    description: "Two minutes to submit your basics so we can vet fit and prep your onboarding squad.",
+    title: "CEO Intro Call",
+    description: "A direct conversation with the CEO of OnlyModels to see if you’re a good fit and if we can genuinely help you grow.",
     meta: "Takes < 2 min",
   },
   {
     id: 2,
     icon: MessageCircle,
-    title: "Goal mapping session",
-    description: "Senior strategist pressure-tests your goals, content pillars, and growth levers.",
+    title: "Optional Agency Call",
+    description: "If you want, we get on a call to present the agency, explain what we do, and show exactly how we can help your brand grow.",
     meta: "Live strategy call",
   },
   {
     id: 3,
     icon: Phone,
-    title: "VIP onboarding call",
-    description: "Meet your pod, align on scripts + assets, and launch dashboards with daily recaps.",
+    title: "Contract",
+    description: "If everything aligns, you sign a clear contract that protects both sides, with no hidden fees and no surprises.",
     meta: "48h turnaround",
   },
   {
     id: 4,
     icon: PenTool,
-    title: "White glove contract",
-    description: "Transparent rev-share agreement, no hidden clauses, cancel anytime with notice.",
+    title: "W Setup & Optimization",
+    description: "We collect your inspiration and content, connect your account, and optimize everything: bio, pricing, menu, automations, PPVs, and overall profile setup.",
     meta: "Zero upfront",
   },
   {
     id: 5,
     icon: Calendar,
-    title: "Launch + iterate",
-    description: "Content calendar, chat flows, and upsell automations go live with weekly optimizations.",
+    title: " Launch & Scale",
+    description: "We start the marketing, activate your systems, run 24/7 chatting, and scale your account to generate the highest revenue possible.",
     meta: "Week 1 momentum",
   },
 ];
@@ -124,12 +124,12 @@ export function StepsToStartSection() {
                 style={{ height: `${scrollProgress * 100}%` }}
                 transition={{ type: "spring", stiffness: 120, damping: 20 }}
               />
-              <motion.div
+              {/* <motion.div
                 className="absolute left-1/2 h-5 w-5 -translate-x-1/2 rounded-full border border-white/40 bg-background/90 shadow-lg shadow-accent/40"
                 style={{ top: `calc(${scrollProgress * 100}% - 10px)` }}
                 animate={{ scale: 1 + scrollProgress * 0.05 }}
                 transition={{ type: "spring", stiffness: 200, damping: 18 }}
-              />
+              /> */}
             </div>
           </div>
 
