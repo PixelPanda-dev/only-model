@@ -19,27 +19,25 @@ const services = [
         title: "Anti-Leak Protection & Content Security",
         type: "security",
         content: [
-            "At OnlyModels, your content is guarded with a full protection system built to keep your photos and videos OFF every platform you never approved.",
-            "If something gets reposted anywhere — even on places like Reddit, where removals are notoriously difficult — we take action instantly.",
-            "We use a mix of internal monitoring tools and direct contacts to wipe stolen content fast. When a leak appears, our team flags it, requests removal through priority channels, and blocks the account responsible through our software within a few hours.",
-            "No waiting days, no “we’ll look into it”, no chaos.",
+            "At OnlyModels, your content is fully protected to keep your photos and videos off platforms you never approved.",
+            "If a leak appears, we act immediately.",
+            "We track it, report it through priority channels, and remove it fast, even on sites like Reddit.",
+            "No delays.",
+            "No excuses.",
             "Your brand stays protected.",
-            "Your content stays yours.",
-            "And leaks don’t survive long enough to hurt your image.",
+            "Your content stays yours."
+            
         ],
     },
     {
         title: "Tailored Marketing That Actually Works",
         type: "growth",
         content: [
-            "At OnlyModels, we don’t blast your content on every platform hoping something magically takes off.",
-            "Most agencies rely on generalists who post everywhere at once, without understanding how each platform truly works. The result is the same every time: nothing is optimized, nothing grows properly, and your audience stays flat.",
-            "We do it differently.",
-            "If we choose to work with you, it’s because we know exactly which platforms fit your personality and your niche. We’re specialists, not random “post everywhere” assistants.",
-            "We focus deeply on one platform first and build real traction there.",
-            "Once that ecosystem is strong, we use the traffic from that platform to boost the next one — creating a chain reaction instead of scattered, useless visibility.",
-            "TikTok, Instagram, Threads, YouTube, Twitch, Reddit, Twitter — we only use what makes sense for you, in the right order, at the right moment.",
-            "That’s why our creators don’t just grow.",
+            "At OnlyModels, we don’t spam every platform and hope for luck.Most agencies use generalists who post everywhere with no strategy, which leads to flat growth.",
+            "We do the opposite.",
+            "We choose platforms based on your personality and niche, start by building real traction on one, then use that momentum to grow the next.It creates a chain reaction instead of scattered visibility.",
+            "TikTok, Instagram, Reddit, YouTube, Twitter. We only use what makes sense for you, in the right order.",
+            "Our creators don’t just grow. ",
             "They scale.",
         ],
     },
@@ -229,7 +227,7 @@ export function ServicesDetail() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.7, ease: "easeOut" }}
-                            className={`flex flex-col gap-16 lg:items-center ${index % 2 === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
+                            className={`flex flex-col gap-10 lg:items-center ${index % 2 === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
                                 }`}
                         >
                             {/* Visual Side */}
