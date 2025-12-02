@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How fast can I expect results?",
     answer:
-      "Growth depends on your niche, your consistency, and your current positioning — but most creators see traction in the first weeks once our systems are in place.",
+      "Growth depends on your niche, your consistency, and your current positioning but most creators see traction in the first weeks once our systems are in place.",
   },
   {
     question: "How do I get started?",
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: "Do I need professional photos or videos?",
     answer:
-      "Not at the start. We guide you on what works for your niche, and our strategy shows you how to create content that converts — even with a basic setup.",
+      "Not at the start. We guide you on what works for your niche, and our strategy shows you how to create content that converts even with a basic setup.",
   },
   {
     question: "Can beginners apply?",
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: "How does OnlyModels help me grow?",
     answer:
-      "We build your funnel from scratch: marketing, chat optimization, strategy, content planning, traffic, automation, scaling, and brand development. You focus on creating — we run the machine.",
+      "We build your funnel from scratch: marketing, chat optimization, strategy, content planning, traffic, automation, scaling, and brand development. You focus on creating we run the machine.",
   },
 ];
 
