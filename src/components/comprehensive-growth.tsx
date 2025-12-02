@@ -31,7 +31,7 @@ const growthFeatures = [
         type: "growth",
         content: [
             "Traffic is the lifeblood of your page.",
-            "But random viral videos aren’t enough. You need high-quality traffic that actually converts into paying subscribers.",
+            "",
             "We use a multi-platform approach (TikTok, Instagram, Reddit, Dating Apps) to funnel qualified leads straight to your page.",
             "We don’t just chase views.",
             "We chase buyers.",
