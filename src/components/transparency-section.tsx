@@ -66,7 +66,7 @@ function HoloCard({
       className="relative w-full cursor-pointer"
       onPointerMove={handlePointerMove}
       onPointerLeave={resetTilt}
-      onClick={() => setFlipped((prev) => !prev)}
+      // onClick={() => setFlipped((prev) => !prev)}
     >
       <div
         className="relative h-64 w-full overflow-visible"
