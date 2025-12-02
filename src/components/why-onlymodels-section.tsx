@@ -198,9 +198,9 @@ export function WhyOnlyModelsSection() {
                                 <div className="why-card-icon mb-6">
                                     <div className="relative flex h-16 w-16 items-center justify-center">
                                         <span className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent/25 via-transparent to-accent-secondary/25 opacity-70 blur-xl transition duration-500 group-hover:opacity-100" />
-                                        <span className="absolute inset-0 rounded-2xl border border-white/15 opacity-60 transition duration-500 group-hover:border-accent/60 group-hover:opacity-100" />
+                                        <span className="absolute inset-0 rounded-2xl  opacity-60 transition duration-500 group-hover:border-accent/60 group-hover:opacity-100" />
                                         <span className="absolute inset-0 rounded-2xl border border-accent/30 opacity-50 transition duration-500 group-hover:opacity-80 animate-[spin_9s_linear_infinite]" />
-                                        <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-accent/20 via-background/60 to-accent-secondary/20 text-accent shadow-inner transition-all duration-500 group-hover:shadow-accent/40">
+                                        <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br text-accent shadow-inner transition-all duration-500 group-hover:shadow-accent/40">
                                             <point.icon
                                                 className={`h-7 w-7 text-foreground transition-transform duration-500 ${point.animation}`}
                                             />

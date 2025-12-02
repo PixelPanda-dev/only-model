@@ -66,13 +66,13 @@ export function TopCreatorsSection() {
                         {/* Glow effect */}
                         <div className="top-creators-heading-glow absolute inset-x-0 -top-4 blur-3xl opacity-20 md:-left-4 md:right-auto md:w-max">
                             <h2 className="top-creators-heading-text bg-gradient-to-r from-accent via-accent-secondary to-accent bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
-                                We create the top 0.1%
+                                The Agency for Top 0.1% Creators
                             </h2>
                         </div>
 
                         {/* Main heading */}
                         <h2 className="top-creators-heading relative bg-gradient-to-r from-accent via-accent-secondary to-accent bg-clip-text pb-2 text-5xl font-bold leading-tight text-transparent md:text-7xl">
-                            We create the top 0.1%
+                            We create the top 
                         </h2>
                     </motion.div>
 
@@ -192,8 +192,8 @@ export function TopCreatorsSection() {
                                     </div>
                                     <div className="flex flex-1 items-center justify-between rounded-2xl border border-white/5 bg-background/60 px-4 py-3">
                                         <div>
-                                            <p className="text-xs uppercase tracking-[0.35em] text-muted-foreground">Avg order</p>
-                                            <p className="text-xl font-semibold text-foreground">$187</p>
+                                            <p className="text-xs uppercase tracking-[0.35em] text-muted-foreground">PPV Sale Average:</p>
+                                            <p className="text-xl font-semibold text-foreground">$46</p>
                                         </div>
                                         <span className="text-accent-secondary text-xs font-semibold uppercase tracking-[0.4em]">+33%</span>
                                     </div>

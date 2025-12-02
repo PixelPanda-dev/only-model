@@ -18,9 +18,9 @@ const transparencyPoints = [
     icon: ScrollText,
   },
   {
-    title: "Zero gatekeeping",
+    title: "Zero restrictions",
     description:
-      "unlike most agencies, we never ask for any payment upfront. If you’re not earning, we’re not earning. Win/win, simple.",
+      "Unlike most agencies, we never ask for any payment upfront. If you’re not earning, we’re not earning. Win/win, simple.",
     icon: Radar,
   },
   {
@@ -91,9 +91,9 @@ function HoloCard({
                   <div className="absolute h-12 w-12 rounded-full bg-accent/20 blur-lg" />
                   <Icon className="relative h-6 w-6 text-accent" />
                 </div>
-                <div className="transparency-card-pill inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-foreground/60">
+                {/* <div className="transparency-card-pill inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-foreground/60">
                   Proof
-                </div>
+                </div> */}
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">{point.title}</h3>
@@ -187,7 +187,7 @@ export function TransparencySection() {
           className="text-center"
         >
           <p className="text-lg text-muted-foreground">
-           With OnlyModels, you stay in control — and we take care of the heavy work so you can focus on growing.
+           With OnlyModels, you stay in control and we take care of the heavy work so you can focus on growing.
           </p>
         </motion.div>
       </div>
