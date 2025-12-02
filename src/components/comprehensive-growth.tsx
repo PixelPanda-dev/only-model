@@ -288,9 +288,9 @@ export function ComprehensiveGrowth() {
                             {/* Content Side */}
                             <div className="flex-1 space-y-8 text-center lg:text-left">
                                 <div className="flex flex-col items-center space-y-4 lg:items-start">
-                                    <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+                                    {/* <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
                                         Growth Pillar {index + 1}
-                                    </div>
+                                    </div> */}
                                     <motion.div className="relative inline-flex">
                                         <motion.h3
                                             className="text-3xl font-bold leading-tight text-accent sm:text-4xl lg:text-5xl"
