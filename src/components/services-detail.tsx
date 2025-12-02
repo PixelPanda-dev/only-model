@@ -227,7 +227,7 @@ export function ServicesDetail() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.7, ease: "easeOut" }}
-                            className={`flex flex-col gap-10 lg:items-center ${index % 2 === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
+                            className={`flex flex-col gap-1 lg:items-center ${index % 2 === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
                                 }`}
                         >
                             {/* Visual Side */}

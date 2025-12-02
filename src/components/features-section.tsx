@@ -12,23 +12,23 @@ type Feature = {
 
 const featureGroups: Feature[] = [
   {
-    title: "Signal-driven CRM",
+    title: "Profile Optimization",
     description:
-      "Auto-build micro segments as soon as a fan reacts so your drops stay hyper-personal.",
+      "We optimize your OF profile from top to bottom: bio, pricing, menu, bundles, feed, and PPV strategy. Everything is built to increase sales without losing fans.",
     graphType: "network",
     image: "/assets/images/img1.jpeg",
   },
   {
-    title: "Workflow studio",
+    title: "Sales Systems",
     description:
-      "Drag-to-launch playbooks that route fans to AI or agents depending on spend potential.",
+      "We build your sales systems: PPV scripts, follow-ups, upsells, GFE flows, and proven strategies that make fans spend consistently.",
     graphType: "workflow",
     image: "/assets/images/img2.jpeg",
   },
   {
-    title: "Revenue cockpit",
+    title: "Content Strategy",
     description:
-      "Forecast daily recurring revenue, promo fatigue, and ad ROI from one view.",
+      "We plan your content around what sells: PPV ideas, angles, poses, formats, and posting frequency. Every piece of content.",
     graphType: "revenue",
     image: "/assets/images/img3.jpeg",
   },
