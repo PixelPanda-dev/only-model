@@ -117,7 +117,7 @@ export function HeroVisuals() {
             >
                 <div className="relative h-[180px] w-[260px]">
                     <Image
-                        src="/assets/hero-visual-images/top-creator-card.png"
+                        src="/assets/hero-visual-images/top-creator-card.webp"
                         alt="Top creator badge"
                         fill
                         sizes="260px"
@@ -153,7 +153,7 @@ export function HeroVisuals() {
             >
                 <div className="relative h-[220px] w-[220px]">
                     <Image
-                        src="/assets/hero-visual-images/xcard.png"
+                        src="/assets/hero-visual-images/xcard.webp"
                         alt="Twitter analytics card"
                         fill
                         sizes="220px"
@@ -187,7 +187,7 @@ export function HeroVisuals() {
             >
                 <div className="relative h-[110px] w-[280px]">
                     <Image
-                        src="/assets/hero-visual-images/messages-card.png"
+                        src="/assets/hero-visual-images/messages-card.webp"
                         alt="Messages revenue card"
                         fill
                         sizes="280px"
