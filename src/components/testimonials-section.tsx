@@ -18,7 +18,7 @@ type VideoTestimonial = {
 const videoTestimonials: VideoTestimonial[] = [
   {
     creator: "Lisa",
-    role: "Top 0.5% Creator",
+    role: "Creator",
     stat: "+420% launch revenue",
     quote: "How we rebuilt her chat scripts and pricing ladder so every fan felt VIP.",
     embedUrl: "https://drive.google.com/file/d/1_TqD7PWfddCtrPeY4Y5acs6_oABlUh2B/preview?autoplay=1&mute=1",
@@ -28,7 +28,7 @@ const videoTestimonials: VideoTestimonial[] = [
   },
   {
     creator: "Ana",
-    role: "chat-first brand",
+    role: "Creator",
     stat: "+38% avg order value",
     quote: "Daily reports, proactive upsells, and the calm confidence of a 24/7 team.",
     embedUrl: "https://drive.google.com/file/d/1bLODuPjQg1lpyV-iRwGyd_xOm-HwIgxa/preview?autoplay=1&mute=1",
@@ -37,10 +37,10 @@ const videoTestimonials: VideoTestimonial[] = [
     durationMs: 52000,
   },
   {
-    creator: "Mara V.",
-    role: "3 creator studio",
+    creator: "Delfi.",
+    role: "Creator",
     stat: "0 ➜ Top 3% in 60 days",
-    quote: "How a multi-creator roster scaled once the backend, compliance, and growth stack were aligned.",
+    quote: "She was posting on every platform without knowing what worked. We reorganized everything for her.",
     embedUrl: "https://drive.google.com/file/d/1jEWBSSzHe25gHywFPp2rO6jYBfi0m0F6/preview?autoplay=1&mute=1",
     aspectPadding: "177.778%",
     length: "0:57",

@@ -11,12 +11,12 @@ const referralPerks = [
     description: "Track exactly what every referral earns with real-time payouts.",
   },
   {
-    title: "Creator-ready assets",
-    description: "Done-for-you swipe copy, reels, and DM scripts to promote instantly.",
+    title: "Full info handoff from the manager",
+    description: "Your referral’s manager talks to you directly as if you were the creator, gives you every detail you need, and sends screenshots so you always know what’s happening.",
   },
   {
-    title: "VIP success line",
-    description: "24/7 Slack channel with our partnerships team to close bigger rev-shares.",
+    title: "Higher earnings boost for active referrers",
+    description: "The more creators you bring in, the more rewards and perks you unlock as your referrals grow.",
   },
 ];
 
@@ -123,7 +123,7 @@ export function CallToActionSection() {
                 Referral ignite
               </div>
               <h3 className="text-2xl font-semibold text-foreground md:text-3xl">
-                Earn $50 or more for each creator you invite.
+                Earn 10% for each creator you invite.
               </h3>
               <p className="text-base text-muted-foreground">
                 Share your experience and get rewarded. High-performing referrals unlock larger rev
@@ -162,10 +162,10 @@ export function CallToActionSection() {
               <Mail className="h-5 w-5" />
               support@onlymodels.app
             </button>
-            <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
+            {/* <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
               <Headset className="h-5 w-5" />
               Live concierge
-            </button>
+            </button> */}
           </div>
         </motion.div>
       </div>
