@@ -187,7 +187,7 @@ export function Footer() {
               <a
                 key={item.text}
                 href={item.href}
-                className="flex items-center gap-2 transition-colors duration-300 hover:text-white"
+                className="flex items-center  gap-2 transition-colors duration-300 hover:text-white"
                 target="_blank"
                 rel="noopener noreferrer"
               >

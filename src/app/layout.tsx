@@ -39,6 +39,8 @@ export const metadata: Metadata = {
 };
 
 import { SmoothScroll } from "@/components/smooth-scroll";
+import CustomCursor from "@/components/CustomCursor";
+
 
 export default function RootLayout({
   children,
@@ -66,6 +68,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} ${outfit.variable} bg-background text-foreground antialiased`}>
+        <CustomCursor />
         <SmoothScroll>
           <ThemeProvider>{children}</ThemeProvider>
         </SmoothScroll>
