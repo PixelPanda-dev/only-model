@@ -22,8 +22,12 @@ const footerLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+const contactInfo = [
+  { icon: Mail, text: "onlymodels.ca@gmail.com", href: "mailto:onlymodels.ca@gmail.com" },
+  { icon: MapPin, text: "6926 Jarry EAST, Montreal, H1P 3C1", href: "https://www.google.com/maps/search/6926+Jarry+EAST,+Montreal,+H1P+3C1" },
+];
+
 const socials = [
-  { icon: Send, href: "onlymodels.ca@gmail.com", label: "Email" },
   { icon: XLogo, href: "https://twitter.com", label: "X" },
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
 ];
@@ -177,10 +181,21 @@ export function Footer() {
             ))}
           </div>
 
-          {/* Contact Info (Optional - kept from previous but styled) */}
-          {/* <div className="flex flex-wrap justify-center gap-4 text-sm opacity-80" style={{ color: "var(--footer-text-muted)" }}>
-             ... content ...
-          </div> */}
+          {/* Contact Info */}
+          <div className="flex flex-col items-center gap-2 text-sm" style={{ color: "var(--footer-text-muted)" }}>
+            {contactInfo.map((item) => (
+              <a
+                key={item.text}
+                href={item.href}
+                className="flex items-center gap-2 transition-colors duration-300 hover:text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <item.icon className="h-4 w-4" />
+                <span>{item.text}</span>
+              </a>
+            ))}
+          </div>
 
           {/* Copyright */}
           <p
