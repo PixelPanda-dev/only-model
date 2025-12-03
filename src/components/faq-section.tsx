@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import { Minus, Plus, ShieldCheck, Sparkles } from "lucide-react";
+import StartJourneyButton from "./ui/start-journey-button";
 
 const faqs = [
   {
@@ -205,6 +206,9 @@ export function FAQSection() {
               </AnimatePresence>
             </motion.div>
           ))}
+        </div>
+        <div className="flex justify-center ">
+          <StartJourneyButton></StartJourneyButton>
         </div>
       </div>
     </section>

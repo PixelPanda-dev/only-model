@@ -7,7 +7,8 @@ const StartJourneyButton = () => {
   return (
     <StyledWrapper>
       <button className="button">
-        <span>Start your Journey</span>
+        {/* <span>Start your Journey</span> */}
+        <span>Apply Now</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 43">
           <polygon points="39.58,4.46 44.11,0 66,21.5 44.11,43 39.58,38.54 56.94,21.5" />
           <polygon points="19.79,4.46 24.32,0 46.21,21.5 24.32,43 19.79,38.54 37.15,21.5" />

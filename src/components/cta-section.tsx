@@ -137,6 +137,10 @@ export function CallToActionSection() {
                   <ShieldCheck className="h-4 w-4" />
                   Referral terms
                 </button>
+                
+                <button className="cta-referral-primary inline-flex cursor-pointer items-center gap-2 rounded-full border border-accent px-6 py-3 text-sm font-semibold text-accent transition hover:bg-accent hover:text-background">
+                  Apply Now
+                </button>
               </div>
             </div>
             <div className="grid gap-4">
@@ -162,10 +166,12 @@ export function CallToActionSection() {
               <Mail className="h-5 w-5" />
               support@onlymodels.app
             </button>
-            {/* <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
-              <Headset className="h-5 w-5" />
-              Live concierge
-            </button> */}
+            <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
+              {/* <Headset className="h-5 w-5" /> */}
+              {/* Live concierge */}
+              Apply Now
+            </button>
+            
           </div>
         </motion.div>
       </div>

@@ -211,6 +211,7 @@ export function StepsToStartSection() {
         >
           <p className="text-[10px] uppercase tracking-[0.4em] text-foreground/50 md:text-sm">No risk • Transparent rev share</p>
           <StartJourneyButton />
+          
         </motion.div>
       </div>
     </section>
