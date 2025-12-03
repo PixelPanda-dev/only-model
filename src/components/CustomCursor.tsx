@@ -52,7 +52,7 @@ const CustomCursor = () => {
         }}
       />
       <div
-        className={`fixed z-[9999] pointer-events-none rounded-full border-2 border-[#ff1493] transition-all duration-400 ease-out
+        className={`fixed z-[9999] pointer-events-none rounded-full border-2 border-[#ff1493] transition-all duration-250 ease-out
           ${isHoveringLink ? 'scale-150 opacity-50' : 'scale-100 opacity-20'}`}
         style={{
           left: position.x,
