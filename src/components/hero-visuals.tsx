@@ -94,7 +94,8 @@ export function HeroVisuals() {
             >
                 <div className="relative h-[200px] w-[220px]">
                     <Image
-                        src="/assets/hero-visual-images/model-card.webp"
+                        // src="/assets/hero-visual-images/model-card.webp"
+                        src="/assets/images/cute.png"
                         alt="Creator snapshot"
                         fill
                         className="object-contain dark:drop-shadow-[0_30px_80px_rgba(0,0,0,0.35)]"
