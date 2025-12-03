@@ -23,7 +23,7 @@ const footerLinks = [
 ];
 
 const socials = [
-  { icon: Send, href: "mailto:support@onlymodels.app", label: "Email" },
+  { icon: Send, href: "onlymodels.ca@gmail.com", label: "Email" },
   { icon: XLogo, href: "https://twitter.com", label: "X" },
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
 ];

@@ -164,7 +164,8 @@ export function CallToActionSection() {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
               <Mail className="h-5 w-5" />
-              support@onlymodels.app
+              {/* support@onlymodels.app */}
+              onlymodels.ca@gmail.com
             </button>
             <button className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
               {/* <Headset className="h-5 w-5" /> */}
