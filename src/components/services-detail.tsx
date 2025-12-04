@@ -137,7 +137,7 @@ function ChatInterface() {
 function SecurityShield() {
     return (
         <div className="relative flex h-full w-full items-center justify-center rounded-3xl border border-border/40 dark:border-white/10 bg-white dark:bg-black/20 p-6 shadow-[0_25px_80px_rgba(var(--accent-primary),0.12)] dark:shadow-none backdrop-blur-md">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-white/40 to-white/0 dark:from-accent/15 dark:via-transparent dark:to-accent-secondary/20" />
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-white/85 via-white/40 to-white/0 dark:from-accent/15 dark:via-transparent dark:to-accent-secondary/20" />
 
             <div className="relative">
                 {/* Shield Icon */}
